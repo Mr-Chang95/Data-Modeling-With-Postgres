@@ -118,7 +118,8 @@ def main():
 
 
 if __name__ == "__main__":
-    # create Entity Relationship Diagram
+    # create Entity Relationship Diagram(ERD)
+    # commented out to create ERD in Drawio
     #graph = create_schema_graph(metadata=MetaData('postgresql://student:student@127.0.0.1/sparkifydb'))
     #graph.write_png('sparkifydb_erd.png')
     main()
